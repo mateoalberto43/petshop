@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop!</title>
+    <link rel="stylesheet" href="estilo max store.css">
+    <link rel="shortcut icon" href="favicon-32x32.png">
+
+</head>
+<!-- <body style="background-color: salmon;"> -->
+    <h1> <em> PetShop! </em> </h1> <br>
+    
+    <img src="https://i.ibb.co/ThnTdxk/animales.jpg" alt="animales" >
+    <h2> ¡El lugar que tus mascotas adoran!</h2>
+    <h3> Página destinada al cuidado, atencion y diversión de nuestras mascotas, </h3> 
+    <h3> este es el lugar perfecto para que tus mascotas disfruten y jueguen, <br> <br>¡Trae a la tuya! </h3>
+    <h3> Ya estás a un paso de poder traérlas. </h3>
+    <h3> Solo necesitamos que completes este formulario y... ¡listo! </h3>
+    <br>
+     <h1 id="cf" > <em> <span id="ver">Formulario para podernos traernos tu mascota:</span> </em> </h1>
+    <form action="https://formspree.io/f/xbjqjvkn"
+            method="POST" >
+        
+       <label for="nombre">Ingresa tu nombre completo:</label> <input type="text" id="nombre" name="Nombre" placeholder="Nombre y apellido." required > <br> <br>
+       <label for="contra">Ingresa tu contraseña:</label> <input type="password" id="contra" name="Nombre" placeholder="Contraseña." required ><br><br>
+       <label for="correo">Ingresa tu correo electrónico:</label> <input type="email" id="correo" name="Nombre" placeholder="Email." required ><br><br>
+       Elige tu disponibilidad horaria:<label> Mañana 9am
+        <input type="radio" name="horario" value="MÑ9"> 
+       </label>
+       <label>Mediodia 12 pm
+           <input type="radio" name="horario" value="MD12"> 
+
+       </label>
+       <label>Siesta 3 pm
+        <input type="radio" name="horario" value="TD3"> 
+
+    </label>
+    <label>Tarde 7 pm
+        <input type="radio" name="horario" value="TD7"> 
+    <br><br>
+    </label>
+    Indícanos el género de tu mascota: <label>Macho
+        <input type="radio" name="genero" value="genM" > 
+
+    </label>
+    <label>Hembra
+        <input type="radio" name="género" value="genF"> 
+
+    </label>
+       <br> <br> 
+       <p> <em> Contános acerca de tu mascota: </em> </p>
+       <textarea rows="10" cols="40" placeholder="Información que nos pueda servir o que creas importante, si crees que no la hay, deja tu número de teléfono." required ></textarea>
+       <br> <br>
+        <label for="bases"> Doy mi consentimiento de que acepto las bases y condiciones de esta empresa. <label>
+            <input type="checkbox" id="bases" name="basesycond" value="AceptaCond" >
+<br><br>
+            <label for="publis"> Deseo recibir noticias y novedades a mi correo electrónico en pos del beneficio de mi mascota.<label>
+                <input type="checkbox" id="publis" name="basesycond" value="AceptaPubli" >
+       <br> <br>
+
+       <input type="submit"> <br>
+
+    </form>
+
+    
+</body>
+</html>
